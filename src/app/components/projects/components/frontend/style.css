@@ -1,0 +1,40 @@
+.projectSection{
+    width: 100%;
+    max-width: 1280px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+   
+
+    h1{
+        font-size: 36px;
+        font-weight: bold;
+        margin: 25px 0px 15px 0px;
+    }
+}
+
+
+
+.Grid1{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 55px;
+    margin-top: 15px;
+}
+
+
+@media (max-width: 720px){
+    .Grid1{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
+
+
+
+
+
+
+
+

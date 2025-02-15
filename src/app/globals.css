@@ -1,0 +1,26 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(54, 95, 119);
+  color: var(--white);
+  
+}
+
+
+:root{
+  --white: #ffff;
+  --black: #000;
+
+  --dark-900: #101026;
+  --dark-700: #1d1d2e;
+  --dark-500: #292936;
+  --dark-1000: #1f1f36;
+
+  --gray-100: #8a8a8a;
+  --green-900: #3fffa3;
+  --red-900: #ff3f4b
+}
