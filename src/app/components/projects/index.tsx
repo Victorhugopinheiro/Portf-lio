@@ -12,7 +12,7 @@ import { Footer } from "./components/footer"
 
 export function Projects() {
   return (
-    <section className="projectSection">
+    <section className="">
 
       <FullStack item="FullStack" />
       <FrontEnd item="FrontEnd" />

@@ -1,5 +1,5 @@
 import { useLayoutEffect } from "react"
-import { Border } from "./component/border"
+
 import "./footer.css"
 import gsap from "gsap"
 import { ScrollTrigger } from "gsap/all"

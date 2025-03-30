@@ -16,9 +16,13 @@ export function Hight() {
   return (
     <main className="container">
 
-     
-        <Image className="imageBg" quality={100} fill sizes="100vw" priority src={bgPortfolio} alt="Background header" />
-   
+
+      <div className="controlMyBg">
+        <div className="bg-image">
+
+        </div>
+      </div>
+
 
 
 
@@ -30,7 +34,7 @@ export function Hight() {
         <div className="about">
 
 
-          <div data-aos="fade-right"  className="controlImage">
+          <div data-aos="fade-right" className="controlImage">
             <Image className="myImg" fill quality={100} priority src={me} alt="Minha foto" />
           </div>
 
